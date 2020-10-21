@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayMusic">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:id="@+id/pictureIV"
+        android:src="@drawable/image1"
+        android:layout_marginLeft="30dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/prevIV"
+        android:layout_below="@+id/pictureIV"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/ic_baseline_navigate_before_24"/>
+
+    <ImageView
+        android:id="@+id/playIV"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pictureIV"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/ic_baseline_play_circle_filled_24"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/nextIV"
+        android:layout_below="@id/pictureIV"
+        android:layout_marginLeft="180dp"
+        android:src="@drawable/ic_baseline_navigate_next_24"/>
+
+
+</RelativeLayout>
